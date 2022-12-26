@@ -1,8 +1,9 @@
 import collections
+import re
 
 c = collections.Counter()
 count_of_years = int(input())
-teams  = []
+teams = []
 
 for _ in range(count_of_years):
     team = input().split(' ')
